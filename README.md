@@ -55,6 +55,19 @@ To abandon this practice conflict and return to the pre-merge state, use `git me
 
 Avoid `git reset --hard`, `git clean -fd`, and force-push while learning. They can discard work or rewrite shared history.
 
+## Completed practice run: branch to merge
+
+I completed one end-to-end GitHub workflow in this repository:
+
+1. Started from an up-to-date `main` branch.
+2. Created the feature branch `feature/add-learning-progress`.
+3. Added `learning-progress.md` and committed it as `Add Git learning progress`.
+4. Pushed the feature branch to `origin`.
+5. Opened Pull Request #1 from `feature/add-learning-progress` into `main`, reviewed the changed file, and merged it.
+6. Switched back to `main`, pulled from `origin`, and confirmed the working tree was clean.
+
+This run practiced the full workflow: branch → change → commit → push → Pull Request → review → merge → verify.
+
 ## Push to a remote (optional)
 
 Only connect this practice repo to the intended practice repository on GitHub. Do not add the remote for your existing capstone application unless you want these exercises published there too.
