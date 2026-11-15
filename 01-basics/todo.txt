@@ -1,0 +1,4 @@
+- Learn git status
+- Learn git diff
+- Learn git add
+- Learn git commit
